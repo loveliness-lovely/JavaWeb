@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>JavaWeb</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
-    <build>
-        <plugins>
-            <!-- 添加 maven-deploy-plugin 插件配置 -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-deploy-plugin</artifactId>
-                <version>3.1.2</version> <!-- 请注意，这里我使用了 3.0.0-M1 作为示例版本，您应该检查并使用一个稳定版本 -->
-                <!-- 可以在这里添加其他配置 -->
-            </plugin>
-            <!-- 其他插件配置可以放在这里 -->
-        </plugins>
-    </build>
-
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">  
+  <modelVersion>4.0.0</modelVersion>  
+  <groupId>org.example</groupId>  
+  <artifactId>JavaWeb</artifactId>  
+  <version>1.0-SNAPSHOT</version>  
+  <packaging>war</packaging>
+  <properties> 
+    <maven.compiler.source>8</maven.compiler.source>  
+    <maven.compiler.target>8</maven.compiler.target>  
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+  </properties>  
+  <build> 
+    <plugins> 
+      <!-- 添加 maven-deploy-plugin 插件配置 -->  
+      <plugin> 
+        <groupId>org.apache.maven.plugins</groupId>  
+        <artifactId>maven-deploy-plugin</artifactId>  
+        <version>3.1.2</version>  
+        <!-- 请注意，这里我使用了 3.0.0-M1 作为示例版本，您应该检查并使用一个稳定版本 -->  
+        <!-- 可以在这里添加其他配置 --> 
+      </plugin>  
+      <!-- 其他插件配置可以放在这里 --> 
+    </plugins> 
+  </build> 
 </project>
